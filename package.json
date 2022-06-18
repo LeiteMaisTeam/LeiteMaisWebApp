@@ -20,11 +20,17 @@
     }
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.2.1",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "framer-motion": "^6",
     "git-cz": "^4.9.0",
     "next": "12.1.6",
     "prop-types": "^15.8.1",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-icons": "^4.4.0",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "eslint": "8.16.0",
