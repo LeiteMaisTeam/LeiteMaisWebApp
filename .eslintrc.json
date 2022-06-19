@@ -23,6 +23,7 @@
   "plugins": ["react"],
   "rules": {
     "react/prop-types": "off",
+    "react/no-children-prop": "off",
     "react/react-in-jsx-scope": "off",
     "prettier/prettier": [
       "error",

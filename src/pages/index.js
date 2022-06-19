@@ -1,7 +1,7 @@
 import { Button, Flex, Grid, Text } from '@chakra-ui/react'
-import LtmlInputIcon from 'shared/components/Input/InputIcon'
 import { useForm } from 'react-hook-form'
 import LtmlInput from 'shared/components/Input/Input'
+import LtmInputPassword from 'shared/components/Input/InputPassword'
 export default function Home() {
   const { register, handleSubmit } = useForm()
 
@@ -33,8 +33,8 @@ export default function Home() {
             mb={2}
             form={register('user')}
           />
-          <LtmlInputIcon
-            iconRight="Ltm-visibility"
+          <LtmInputPassword
+            // iconRight="Ltm-visibility"
             placeholder="Senha"
             mb={4}
             form={register('password')}
