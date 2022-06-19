@@ -1,12 +1,11 @@
-/* eslint-disable react/no-children-prop */
 import {
-  Input,
   InputGroup,
   InputLeftElement,
   InputRightElement
 } from '@chakra-ui/react'
 import React from 'react'
 import LtmIcon from '../Icon'
+import { InputStyled } from './style'
 
 export const LtmlInputIcon = ({ iconLeft, iconRight, ...props }) => {
   return (
@@ -19,7 +18,7 @@ export const LtmlInputIcon = ({ iconLeft, iconRight, ...props }) => {
         />
       )}
 
-      <Input {...props} {...props.form} fontSize={12} />
+      <InputStyled {...props} {...props.form} fontSize={12} />
 
       {iconRight && (
         <InputRightElement

@@ -1,7 +1,7 @@
-import { Input } from '@chakra-ui/react'
 import React from 'react'
+import { InputStyled } from './style'
 
 export const LtmlInput = ({ form, ...props }) => {
-  return <Input borderColor="gray.300" fontSize={12} {...props} {...form} />
+  return <InputStyled {...props} {...form} />
 }
 export default LtmlInput
