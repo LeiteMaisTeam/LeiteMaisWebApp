@@ -28,7 +28,7 @@ export function LtmReactiveGrid({
       )
     }
 
-    return <div>{child}</div>
+    return <>{child}</>
   }
 
   return (
